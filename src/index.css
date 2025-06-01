@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-  
   body {
     @apply bg-gradient-to-br from-surface-50 to-surface-100 text-surface-900 antialiased;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
