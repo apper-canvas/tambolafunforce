@@ -182,7 +182,7 @@ const MainFeature = () => {
     setMarkedNumbers(new Set())
     setCompletedPatterns([])
     toast.success('Game started!')
-  }
+}
 
   // Auto-call effect
   useEffect(() => {
@@ -194,7 +194,7 @@ const MainFeature = () => {
       clearInterval(callInterval)
       setCallInterval(null)
     }
-  }, [autoCall, gameState, callNextNumber, callInterval])
+  }, [autoCall, gameState, callNextNumber])
 
   return (
     <section className="py-16 md:py-24">
